@@ -264,6 +264,13 @@ figcaption {
     color: #4b5563;
 }
 
+.gallery-credit {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    text-align: center;
+}
+
 .cta {
     text-align: center;
     background: linear-gradient(135deg, #b91c1c, #dc2626);
