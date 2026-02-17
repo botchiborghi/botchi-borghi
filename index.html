@@ -6,17 +6,22 @@
     <title>Botchi Borghi · Assistant inspirado en Bichi Borghi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="background-texture" aria-hidden="true"></div>
     <main class="page">
-        <header class="hero">
+        <header class="hero" id="top">
             <div class="hero-content">
                 <p class="tag">Inspirado en Claudio "Bichi" Borghi</p>
                 <h1>Botchi Borghi</h1>
                 <p class="lead">El asistente que mezcla la elegancia de La Paternal, la calma de Borghi en la cancha y la precisión de una IA moderna.</p>
+                <div class="badge-row">
+                    <span>🧠 Criterio argentino</span>
+                    <span>🎛️ Orden sin drama</span>
+                    <span>⚡ Respuestas con ritmo</span>
+                </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span>1986</span>
@@ -30,6 +35,10 @@
                         <span>∞</span>
                         <p>Paciencia para tus tareas</p>
                     </div>
+                </div>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#cta">Arrancamos</a>
+                    <a class="btn ghost" href="#features">Ver cómo juego</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -47,7 +56,7 @@
             </p>
         </section>
 
-        <section class="features">
+        <section class="features" id="features">
             <h2>Juego asociado + Productividad</h2>
             <div class="feature-grid">
                 <article class="feature-card">
@@ -106,14 +115,21 @@
                     <img src="images/borghi-boca.jpg" alt="Borghi en Boca">
                     <figcaption>Magia xeneize, toque de distinción.</figcaption>
                 </figure>
+                <figure>
+                    <img src="bichi-borghi.jpg" alt="Borghi en acción">
+                    <figcaption>Talento en movimiento, siempre con pausa.</figcaption>
+                </figure>
             </div>
             <p class="gallery-credit">Todas las fotos se alojan localmente (fuente: Wikimedia Commons).</p>
         </section>
 
-        <section class="cta">
+        <section class="cta" id="cta">
             <h2>¿Listo para jugar con ventaja?</h2>
             <p>Hablame en español, inglés o portugués (y practicamos italiano o francés cuando quieras). Te acompaño en todo el partido.</p>
-            <button type="button">Escribime y arrancamos</button>
+            <div class="cta-actions">
+                <button type="button">Escribime y arrancamos</button>
+                <a class="cta-link" href="#top">Volver arriba</a>
+            </div>
         </section>
     </main>
 
