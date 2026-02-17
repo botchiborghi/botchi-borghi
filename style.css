@@ -26,7 +26,7 @@ body {
 .background-texture {
     position: fixed;
     inset: 0;
-    background-image: url('images/asfalt-dark.png?v=2');
+    background-image: url('images/asfalt-dark.png?v=3');
     opacity: 0.2;
     z-index: -2;
 }
